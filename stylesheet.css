@@ -1,0 +1,292 @@
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0px 0px 0px 0px;
+    background-color:rgb(97, 48, 48);
+}
+  
+  .background {
+    background-color:black; 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    background-repeat: no-repeat
+  }
+  
+  .content {
+    background-color: rgba(231, 188, 188, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .button {
+    background-color: #ff6600;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #e6007f;
+  }
+
+.nav{
+ background-color:black;
+ color:white; 
+ padding: 10px 55px 5px 5px;
+ font-family:monospace;
+ margin:0px;
+ border-radius:30px;
+}
+.nav ul {
+    list-style: none;
+    padding-top:6px ;
+	padding-bottom:6px;
+	align-items:right;
+    
+}
+
+.nav ul li {
+    display: inline;
+    margin:  20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: red;
+	font-size: 20px;
+}
+
+/* Hero Section (Banner) */
+.hero {
+    position:center;
+    width: 100%;
+    height: 90vh;
+    background-image: url('images/s8.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+	padding:10px;
+}
+
+.hero banner {
+    background: rgba(224, 218, 218, 0);
+    padding: 50px;
+    border-radius: 10px;
+	
+	
+}
+
+.hero h2 {
+    font-size: 6rem;
+    margin: 0;
+	padding:2px;
+    font-family:monospace; 
+	color:white;
+}
+.hero h2:hover{
+	color:darkred;
+	transition:0.4s;
+	
+} 
+
+
+
+
+.explore-btn{
+    display: inline-block;
+    background:white;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: background 0.2s;
+    font-family:monospace; 	
+}
+
+.explore-btn:hover {
+    background: darkred;
+	color:white;
+}
+
+
+.car-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.car-item {
+    text-align: border; 
+}
+
+.car-item img {
+    width: 100%; 
+    max-width: 250px; 
+    height: auto;
+    border-radius: 10px; 
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d1beba; 
+    margin-top: 5px; 
+}
+
+
+.about {
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: rgb(143, 134, 134);
+}
+
+
+.contact {
+    padding: 50px;
+     color:black;
+    background-color: aliceblue;
+	padding:100px;
+	border:3px;
+	border-color:black;
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+
+.footer {
+    background: rgb(14, 3, 3);
+    color: white;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+    
+    .hero p {
+        font-size: 1.2rem;
+    }
+    
+    .car-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car-gallery img {
+        width: 80%;
+    }
+}
+
+@media (max-width:600px) {/*Mobile styles*/}
+@media (max-width:1024px) {/*Tablet styles*/}
+@media (max-width:1025px) {/*Desktop styles*/}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    flex:1 1 calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.body {
+    font-size:1.2rem;
+	margin:0px 0px 0px 0px;
+}
+
+.a:focus {
+    outline:2px solid #ff0000;
+}
+.service{
+	text-align:center;
+	
+}
+.h44{
+margin-right:9px;
+ margin-left:9px;
+ margin-top:9px;
+ margin-bottom:9px;
+width:100%;
+text-align:center;
+ font-family:monospace;
+ font-size:30px;
+letter-spacing:35px;
+ color:black;
+ padding-bottom:25px;
+ padding-top:25px;
+ padding-left:auto;
+ text-decoration:none;
+ border-radius: 13px;
+ text-shadow:5px;
+}
+form {
+  background-color: black;
+  padding: 50px;
+  border-radius: 5px;
+  width: 300px;
+  color:white;
+  font-family:monospace;
+  
+}
+input, textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius:15px;
+}
+button{
+	background-color:blue;
+	color:white;
+	border:none;
+	padding:30px
+}
